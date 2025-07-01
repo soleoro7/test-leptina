@@ -87,3 +87,40 @@ button:hover {
 #cta-button:hover {
   background-color: #444017;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.25rem;
+    font-size: 1.05rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .question {
+    padding: 1.25rem;
+  }
+
+  .question p {
+    font-size: 1.1rem;
+  }
+
+  label {
+    font-size: 1.05rem;
+  }
+
+  button, #cta-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  #result {
+    padding: 1.25rem;
+    font-size: 1.1rem;
+  }
+}
+
+
